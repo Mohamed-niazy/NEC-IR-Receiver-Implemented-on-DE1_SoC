@@ -56,10 +56,10 @@ For a demonstration of the design running on the DE1-SoC, see the video [test_de
 
 Here are some key visuals for the project:
 
-1. **Simulation Results**: Check the waveform simulation from QuestaSim in [tb_results.png](./screens/tb_results.png).
-2. **NEC IR Protocol Frame**: The frame format used in this design is detailed in [NEC_IR_Protocol.jpg](./NEC_IR_Protocol.jpg).
-3. **RTL Viewer**: The RTL diagram generated from Quartus is shown in [rtl_viewer.png](./screens/rtl_viewer.png).
-4. **Design Demonstration**: Watch the real-life demonstration video where the design runs on DE1-SoC, showing the NEC IR frame being decoded and displayed on the board: [test_design_real_life.mp4](./screens/test_design_real_life.mp4).
+1. **NEC IR Protocol Frame**: The frame format used in this design is detailed in ![NEC_IR_Protocol.jpg](./screens/NEC_IR_Protocol.jpg).
+2. **Simulation Results**: Check the waveform simulation from QuestaSim in ![tb_results.png](./screens/tb_results.png).
+3. **RTL Viewer**: The RTL diagram generated from Quartus is shown in ![rtl_viewer.png](./screens/rtl_viewer.png).
+4. **Design Demonstration**: Watch the real-life demonstration video where the design runs on DE1-SoC, showing the NEC IR frame being decoded and displayed on the board: ![test_design_real_life.mp4](./screens/test_design_real_life.mp4).
 
 ## Contact
 
