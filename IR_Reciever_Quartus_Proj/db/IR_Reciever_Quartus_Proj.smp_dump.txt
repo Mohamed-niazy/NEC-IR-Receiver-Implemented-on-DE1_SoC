@@ -1,0 +1,9 @@
+
+State Machine - |TOP_IR_RX|ir_rx:inst_ir_rx|rx_current_state
+Name rx_current_state.DATA_CHECK rx_current_state.STOP_PULSE_CHECK rx_current_state.FRAME_CAPTURE rx_current_state.START_SPACE_CHECK rx_current_state.START_PULSE_CHECK rx_current_state.IDLE 
+rx_current_state.IDLE 0 0 0 0 0 0 
+rx_current_state.START_PULSE_CHECK 0 0 0 0 1 1 
+rx_current_state.START_SPACE_CHECK 0 0 0 1 0 1 
+rx_current_state.FRAME_CAPTURE 0 0 1 0 0 1 
+rx_current_state.STOP_PULSE_CHECK 0 1 0 0 0 1 
+rx_current_state.DATA_CHECK 1 0 0 0 0 1 
